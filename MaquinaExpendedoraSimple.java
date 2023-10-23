@@ -37,6 +37,10 @@ public class MaquinaExpendedoraSimple {
         estacionDestino = destino;
     }
     
+    public void setPrecioBillete(int nuevoPrecio){
+        precioBillete = nuevoPrecio;
+    }
+    
     public int getTotalDineroAcumulado(){
         return totalDineroAcumulado;
     }
